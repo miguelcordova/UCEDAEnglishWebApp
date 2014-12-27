@@ -1,0 +1,2 @@
+@extends('Books.layouts.master')
+

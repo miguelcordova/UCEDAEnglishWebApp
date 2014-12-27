@@ -1,0 +1,2 @@
+@extends('Classes.layouts.master')
+

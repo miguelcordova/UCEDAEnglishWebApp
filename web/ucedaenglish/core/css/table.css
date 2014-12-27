@@ -1,0 +1,41 @@
+.section_group .table { width: 100%; }
+
+.table { color: #666666; }
+
+.table.full_width { width: 99%; margin-left: 3px; }
+
+/* Scrollable table body */
+.table_scrollable .table_header { margin-bottom: -1px; }
+.table_scrollable.scroll_active .table_header {	width: 663px !important; }
+.ie8 .table_scrollable.scroll_active .table_header { width: 646px !important; }
+.chrome .table_scrollable.scroll_active .table_header { width: 656px !important; }
+.safari .table_scrollable.scroll_active .table_header { width: 655px !important; }
+.ie8 .table_scrollable .table_header { margin-top: 10px; }
+
+.list_wrapper { margin-bottom: 10px; }
+.list_wrapper > .table { margin-bottom: 0; }
+.scroll_active .list_wrapper { overflow-y: scroll; padding-right: 1px; }
+
+/* <table> styles starts here */
+.table thead tr { background-color: #EFEFEF; }
+.table thead th { font-weight: bold; text-align: center; font-size: 11px; }
+.table td { font-size: 11px; }
+.table a { color: #007CBE; }
+.action { margin-left: 5px; }
+.cell-number { text-align: right; }
+.cell-visible { width: 70px; }
+.cell-order { width: 83px; }
+.cell-action { width: 100px; }
+.cell-hours-required { width: 200px; }
+.cell-report-name { width: 200px; }
+.cell-delete { width: 34px; }
+
+td.cell_order { width: 63px; margin-left: -1px; }
+
+.report .table td {
+	vertical-align: middle;
+}
+.cell_icon_action{
+	width: 20px;
+	max-width: 20px;
+}
